@@ -19,4 +19,9 @@ public class Test1 {
 		String s = Integer.toString(getA());
 		return s;
 	}
+	
+	public int addB(int b){
+        int c = a+b;
+        return c;
+    }
 }
